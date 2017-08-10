@@ -1,0 +1,51 @@
+.carts, #side #cart {
+    .item_price,.total_line {
+        text-align: right;
+    }
+    .total_line .total_cell {
+        font-weight: bold;
+        border-top: 1px solid #595;
+    }
+}
+
+#side {
+    padding: 1em 2em;
+    background: #141;
+    
+    form,div{
+        display: inline;
+    }
+    #cart {
+        font-size: small;
+        
+        h2{
+            color: #fff;    
+        }
+        
+        table{
+            border-top: 1px dotted #595;
+            border-bottom: 1px dotted #595;
+            margin-bottom: 10px;
+            
+            tr {
+                td{
+                    color: #fff;
+                }
+            }
+        }
+        
+    }
+    
+    
+    
+        
+        li{
+            list-style: none;
+            a {
+                color: #bfb;
+                font-style: small;
+            }
+            
+        }
+    
+}    
